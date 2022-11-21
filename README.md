@@ -1,16 +1,17 @@
-# authentication_getx_firestore_flutter
+# Authentication_Getx_Firestore_Flutter
 
-A new Flutter project.
+Nice clean sign up / sign in UI using flutter. 
+In this project, I make sign in and sign up page with Getx as controller. 
+Also save data user in firebase(auth and firestore).
 
-## Getting Started
+## Packages I am using:
+- cloud_firestore: ^4.1.0
+- firebase_auth: ^4.1.3 
+- firebase_core: ^2.3.0 
+- firebase_storage: ^11.0.6 
+- get: ^4.6.5 
+- lottie: ^2.0.0 
 
-This project is a starting point for a Flutter application.
+### SignUp/SignIn App Final UI
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![App UI](/SignInSignUp.png)

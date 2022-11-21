@@ -8,7 +8,6 @@ import 'package:authentication_getx_firestore_flutter/models/users_model.dart'
     as model;
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
-import 'package:image_picker/image_picker.dart';
 import 'package:lottie/lottie.dart';
 
 class AuthController extends GetxController {
