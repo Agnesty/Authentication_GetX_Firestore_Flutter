@@ -1,10 +1,15 @@
-# authentication_getx_firestore_flutter
+# Authentication_Getx_Firestore_Flutter
 
+Nice clean sign up / sign in UI using flutter. 
 A new Flutter project.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
+## Packages I am using:
+- cloud_firestore: ^4.1.0 [link](https://pub.dev/packages/cloud_firestore)
+- firebase_auth: ^4.1.3 [link](https://pub.dev/packages/firebase_auth)
+- firebase_core: ^2.3.0 [link](https://pub.dev/packages/core)
+- firebase_storage: ^11.0.6 [link](https://pub.dev/packages/firebase_storage)
+- get: ^4.6.5 [link](https://pub.dev/packages/get)
+- lottie: ^2.0.0 [link](https://pub.dev/packages/lottie)
 
 A few resources to get you started if this is your first Flutter project:
 
