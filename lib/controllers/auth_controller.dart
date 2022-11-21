@@ -18,7 +18,6 @@ class AuthController extends GetxController {
   void onReady() {
     super.onReady();
     _user = Rx<User?>(firebaseAuth.currentUser);
-    // _user.bindStream(firebaseAuth.authStateChanges());
      _user.bindStream(firebaseAuth.userChanges());
     ever(_user, _setInitialScreen);
   }
@@ -43,7 +42,6 @@ class AuthController extends GetxController {
           email: email,
           password: password,
         );
-        // String downloadUrl = await _uploadToStorage(image);
         model.User user = model.User(
           username: username,
           email: email,
