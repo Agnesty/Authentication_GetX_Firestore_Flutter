@@ -34,7 +34,7 @@ class SignInScreen extends StatelessWidget {
                     "https://assets4.lottiefiles.com/packages/lf20_M9p23l.json"),
               ),
               const SizedBox(
-                height: 20,
+                height: 5,
               ),
               const Text(
                 "Sign In",
@@ -76,7 +76,7 @@ class SignInScreen extends StatelessWidget {
               Container(
                 width: MediaQuery.of(context).size.width - 40,
                 height: 50,
-                decoration: BoxDecoration(
+                decoration: const BoxDecoration(
                     color: buttonColor,
                     borderRadius: BorderRadius.all(Radius.circular(15))),
                 child: InkWell(

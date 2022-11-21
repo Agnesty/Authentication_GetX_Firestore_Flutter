@@ -23,13 +23,13 @@ class SignUpScreen extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               SizedBox(
-                width: 250,
-                height: 220,
+                width: Get.width*0.4,
+                height: Get.width*0.4,
                 child: LottieBuilder.network(
                     "https://assets7.lottiefiles.com/packages/lf20_zw0djhar.json"),
               ),
               const SizedBox(
-                height: 25,
+                height: 5,
               ),
               const Text(
                 "Sign Up",
