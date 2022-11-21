@@ -1,5 +1,4 @@
 # Authentication_Getx_Firestore_Flutter
-
 Nice clean sign up / sign in UI using flutter. In this project, I make sign in and sign up page with Getx as controller. Also save data user in auth and firestore.
 
 
@@ -14,3 +13,5 @@ Nice clean sign up / sign in UI using flutter. In this project, I make sign in a
 ### APP UI:
 
 ![App UI](/SignInSignUp.png)
+
+
